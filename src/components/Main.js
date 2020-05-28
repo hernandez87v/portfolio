@@ -86,13 +86,17 @@ class Main extends React.Component {
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            As a lifelong learner I love the endless learning possibilities
+            being a developer brings. Before Web Development (and currently) my
+            hobbies are 3D Printing and building/flying racing drones. I've gone
+            in depth in learning those hobbies inside out which provided me with
+            additional skills such as sourcing electronics and putting
+            components together with my soldering iron. Such as other projects
+            that involve Raspberry Pi's (mini computers).
+          </p>
+          <p>
+            Whether its putting components together with electronics or with
+            code im excited for my future in doing the latter as a career.
           </p>
           {close}
         </article>
