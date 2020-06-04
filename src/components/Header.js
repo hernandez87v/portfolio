@@ -8,7 +8,7 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Hi, I'm Vlad. Nice to meet you.</h1>
+        <h1>Hi, my name is Vlad.</h1>
         <p>Full Stack Developer from Canada</p>
       </div>
     </div>
@@ -29,7 +29,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Portfolio
+            Code
           </button>
         </li>
         <li>
