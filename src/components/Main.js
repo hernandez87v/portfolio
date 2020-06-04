@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic04 from '../images/pic04.png'
-import pic02 from '../images/pic02.jpg'
+// import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
@@ -34,10 +34,10 @@ class Main extends React.Component {
           </span>
           <p>
             Full-Stack Developer focused on front-end with skills in React,
-            Javascript, NodeJS, ExpressJS, HTML, CSS, among others! I have a
-            lifelong passion in technology. Motivated by the endless learning
-            opportunities ahead. I would offer my full commitment, and be a
-            pleasant and friendly addition to your team.
+            Javascript, HTML, CSS, and more! With a life-long passion in
+            technology, I am motivated by the endless learning opportunities
+            ahead and would offer my full commitment as a friendly and dynamic
+            addition to your team.
           </p>
           {/* <p>
             Checkout my <a href="page-2">awesome work</a>.
@@ -52,25 +52,49 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h2 className="major">Code</h2>
+          <span className="image main">{/* <img src={pic02} alt="" /> */}</span>
+          <ul>
+            <li>
+              <a
+                href="https://github.com/hernandez87v/dnd-character-create"
+                target="_blank"
+              >
+                DND Character Create
+              </a>{' '}
+              - React, Node, Express, Material-UI
+            </li>
+            <li>
+              <a
+                href="https://github.com/hernandez87v/jungle-rails"
+                target="_blank"
+              >
+                Ruby On Rails E-Commerce site
+              </a>{' '}
+              - Ruby On Rails, PostgresSQL, RSPec
+            </li>
+            <li>
+              <a
+                href="https://github.com/hernandez87v/scheduler"
+                target="_blank"
+              >
+                Interview Scheduler
+              </a>{' '}
+              - React, Storybook, Webpack, Babel, Axios
+            </li>
+            <li>
+              <a href="https://github.com/hernandez87v/tweeter" target="_blank">
+                Twitter Clone
+              </a>{' '}
+              - HTML, CSS, JQuery, AJAX, Node, Express
+            </li>
+            <li>
+              <a href="https://github.com/hernandez87v/tinyapp" target="_blank">
+                URL Shortner App
+              </a>{' '}
+              - Javascript, Node, Express, EJS, BCrypt
+            </li>
+          </ul>
           {close}
         </article>
 
