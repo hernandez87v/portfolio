@@ -2,7 +2,7 @@ import PropTypes from 'prop-types'
 import React from 'react'
 import pic04 from '../images/pic04.png'
 // import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+// import pic03 from '../images/pic03.jpg'
 
 class Main extends React.Component {
   render() {
@@ -28,10 +28,21 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+          <div class="custom-shape-divider-top-1591384962">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1200 0H0l598.97 114.72L1200 0z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic04} alt="" />
-          </span>
+          <span className="image main">{/* <img src={pic04} alt="" /> */}</span>
           <p>
             Full-Stack Developer focused on front-end with skills in React,
             Javascript, HTML, CSS, and more! With a life-long passion in
@@ -52,6 +63,19 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
+          <div class="custom-shape-divider-top-1591384962">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1200 0H0l598.97 114.72L1200 0z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
           <h2 className="major">Code</h2>
           <span className="image main">{/* <img src={pic02} alt="" /> */}</span>
           <ul>
@@ -59,6 +83,7 @@ class Main extends React.Component {
               <a
                 href="https://github.com/hernandez87v/dnd-character-create"
                 target="_blank"
+                rel="noreferrer"
               >
                 DND Character Create
               </a>{' '}
@@ -68,6 +93,7 @@ class Main extends React.Component {
               <a
                 href="https://github.com/hernandez87v/jungle-rails"
                 target="_blank"
+                rel="noreferrer"
               >
                 Ruby On Rails E-Commerce site
               </a>{' '}
@@ -77,19 +103,28 @@ class Main extends React.Component {
               <a
                 href="https://github.com/hernandez87v/scheduler"
                 target="_blank"
+                rel="noreferrer"
               >
                 Interview Scheduler
               </a>{' '}
               - React, Storybook, Webpack, Babel, Axios
             </li>
             <li>
-              <a href="https://github.com/hernandez87v/tweeter" target="_blank">
+              <a
+                href="https://github.com/hernandez87v/tweeter"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Twitter Clone
               </a>{' '}
               - HTML, CSS, JQuery, AJAX, Node, Express
             </li>
             <li>
-              <a href="https://github.com/hernandez87v/tinyapp" target="_blank">
+              <a
+                href="https://github.com/hernandez87v/tinyapp"
+                target="_blank"
+                rel="noreferrer"
+              >
                 URL Shortner App
               </a>{' '}
               - Javascript, Node, Express, EJS, BCrypt
@@ -105,22 +140,27 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <div class="custom-shape-divider-top-1591384962">
+            <svg
+              data-name="Layer 1"
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 1200 120"
+              preserveAspectRatio="none"
+            >
+              <path
+                d="M1200 0H0l598.97 114.72L1200 0z"
+                class="shape-fill"
+              ></path>
+            </svg>
+          </div>
+          <h2 className="major">Skills</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic04} alt="" />
           </span>
           <p>
-            As a lifelong learner I love the endless learning possibilities
-            being a developer brings. Before Web Development (and currently) my
-            hobbies are 3D Printing and building/flying racing drones. I've gone
-            in depth in learning those hobbies inside out which provided me with
-            additional skills such as sourcing electronics and putting
-            components together with my soldering iron. Such as other projects
-            that involve Raspberry Pi's (mini computers).
-          </p>
-          <p>
-            Whether its putting components together with electronics or with
-            code im excited for my future in doing the latter as a career.
+            React / Javascript / Express JS/ Node JS / Ruby / Ruby On Rails /
+            AJAX / JQuery / HTML / CSS / Docker / Testing with Mocha / Chai /
+            Selenium / RSpec / Jest / Cypress SQL / Databases / PSQL
           </p>
           {close}
         </article>
@@ -133,33 +173,44 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
+          {/* <form method="post" action="#">
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" name="name" id="name" alt="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" name="email" id="email" alt="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea
+                name="message"
+                id="message"
+                rows="4"
+                alt="message"
+              ></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input
+                  type="submit"
+                  value="Send Message"
+                  className="special"
+                  alt="submit button"
+                />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input type="reset" value="Reset" alt="reset" />
               </li>
             </ul>
-          </form>
+          </form> */}
           <ul className="icons">
             <li>
               <a
                 href="https://www.linkedin.com/in/vlad-hernandez/"
                 target="_blank"
+                rel="noreferrer"
                 className="icon fa-linkedin"
               >
                 <span className="label">LinkedIn</span>
@@ -169,6 +220,7 @@ class Main extends React.Component {
               <a
                 href="https://github.com/hernandez87v"
                 target="_blank"
+                rel="noreferrer"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
@@ -178,6 +230,7 @@ class Main extends React.Component {
               <a
                 href="https://twitter.com/vancity_exe"
                 target="_blank"
+                rel="noreferrer"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
@@ -187,6 +240,7 @@ class Main extends React.Component {
               <a
                 href="https://www.instagram.com/vancity.exe/"
                 target="_blank"
+                rel="noreferrer"
                 className="icon fa-instagram"
               >
                 <span className="label">Instagram</span>
