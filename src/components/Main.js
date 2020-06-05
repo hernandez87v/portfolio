@@ -259,6 +259,16 @@ class Main extends React.Component {
                 <span className="label">Instagram</span>
               </a>
             </li>
+            <li>
+              <a
+                href="mailto:hernandez87v@hotmail.com"
+                target="_blank"
+                rel="noreferrer"
+                className="icon fa-envelope"
+              >
+                <span className="label">Email</span>
+              </a>
+            </li>
           </ul>
           {close}
         </article>
