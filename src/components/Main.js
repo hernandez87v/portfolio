@@ -81,6 +81,16 @@ class Main extends React.Component {
           <ul>
             <li>
               <a
+                href="https://djjosehernandez.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                DJ Jose Hernandez
+              </a>{' '}
+              - React, API's
+            </li>
+            <li>
+              <a
                 href="https://github.com/hernandez87v/dnd-character-create"
                 target="_blank"
                 rel="noreferrer"
@@ -239,7 +249,7 @@ class Main extends React.Component {
                 <span className="label">GitHub</span>
               </a>
             </li>
-            <li>
+            {/* <li>
               <a
                 href="https://twitter.com/vancity_exe"
                 target="_blank"
@@ -258,7 +268,7 @@ class Main extends React.Component {
               >
                 <span className="label">Instagram</span>
               </a>
-            </li>
+            </li> */}
             <li>
               <a
                 href="mailto:hernandez87v@hotmail.com"
