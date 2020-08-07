@@ -87,7 +87,7 @@ class Main extends React.Component {
               >
                 DJ Jose Hernandez
               </a>{' '}
-              - React, API's
+              - React, API's, Google Analytics
             </li>
             <li>
               <a
@@ -168,9 +168,10 @@ class Main extends React.Component {
             <img src={pic04} alt="" />
           </span>
           <p>
-            React / Javascript / Express JS/ Node JS / Ruby / Ruby On Rails /
-            AJAX / JQuery / HTML / CSS / Docker / Testing with Mocha / Chai /
-            Selenium / RSpec / Jest / Cypress SQL / Databases / PSQL
+            React / Javascript / Express JS / Node JS / Google Analytics /Ruby /
+            Ruby On Rails / AJAX / JQuery / HTML / CSS / Docker / Testing with
+            Mocha / Chai / Selenium / RSpec / Jest / Cypress SQL / Databases /
+            PSQL
           </p>
           {close}
         </article>
