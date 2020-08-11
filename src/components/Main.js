@@ -270,14 +270,14 @@ class Main extends React.Component {
               </a>
             </li> */}
             <li>
-              <a
+              <OutboundLink
                 href="mailto:hernandez87v@hotmail.com"
                 target="_blank"
                 rel="noreferrer"
                 className="icon fa-envelope"
               >
                 <span className="label">Email</span>
-              </a>
+              </OutboundLink>
             </li>
           </ul>
           {close}
