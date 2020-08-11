@@ -79,63 +79,63 @@ class Main extends React.Component {
           <span className="image main">{/* <img src={pic02} alt="" /> */}</span>
           <ul>
             <li>
-              <a
+              <OutboundLink
                 href="https://djjosehernandez.com/"
                 target="_blank"
                 rel="noreferrer"
               >
                 DJ Jose Hernandez
-              </a>{' '}
+              </OutboundLink>{' '}
               - React, API's, Google Analytics
             </li>
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/hernandez87v/dnd-character-create"
                 target="_blank"
                 rel="noreferrer"
               >
                 DND Character Create
-              </a>{' '}
+              </OutboundLink>{' '}
               - React, Node, Express, Material-UI
             </li>
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/hernandez87v/jungle-rails"
                 target="_blank"
                 rel="noreferrer"
               >
                 Ruby On Rails E-Commerce site
-              </a>{' '}
+              </OutboundLink>{' '}
               - Ruby On Rails, PostgresSQL, RSPec
             </li>
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/hernandez87v/scheduler"
                 target="_blank"
                 rel="noreferrer"
               >
                 Interview Scheduler
-              </a>{' '}
+              </OutboundLink>{' '}
               - React, Storybook, Webpack, Babel, Axios
             </li>
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/hernandez87v/tweeter"
                 target="_blank"
                 rel="noreferrer"
               >
                 Twitter Clone
-              </a>{' '}
+              </OutboundLink>{' '}
               - HTML, CSS, JQuery, AJAX, Node, Express
             </li>
             <li>
-              <a
+              <OutboundLink
                 href="https://github.com/hernandez87v/tinyapp"
                 target="_blank"
                 rel="noreferrer"
               >
                 URL Shortner App
-              </a>{' '}
+              </OutboundLink>{' '}
               - Javascript, Node, Express, EJS, BCrypt
             </li>
           </ul>
